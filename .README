@@ -1,0 +1,13 @@
+## Installation Steps
+
+# Install benelot/pybullet-gym
+    cd ..
+    git clone https://github.com/benelot/pybullet-gym.git
+    cd pybullet-gym
+    pip install -e '.[all]'
+
+# Install Gym with Atari
+    cd ..
+    git clone https://github.com/openai/gym
+    cd gym
+    pip install -e '.[atari]'
